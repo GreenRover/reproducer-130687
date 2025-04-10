@@ -20,9 +20,9 @@
 - Create Client A
 - Create 3 Flows and provision 3 Queues
 - Create producer and send 500msgs that to those queues
-- Flow A: receives 10 msgs and blocks its thread
-- Flow B: receives 50 msgs and blocks its thread
-- Flow C: receives 450 msgs and blocks its thread
+- Flow A: receives 10 msgs and then blocks its thread
+- Flow B: receives 50 msgs and then blocks its thread
+- Flow C: receives 450 msgs and then blocks its thread
 
 #### What I expect:
 - Flow A: consumes 10 msgs
